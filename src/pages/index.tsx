@@ -22,12 +22,12 @@ interface SelectedService {
 
 const Home = () => {
   const [step, setStep] = useState(1);
-  // const [clienteInfo, setClienteInfo] = useState<{
-  //   nombre: string;
-  //   modelo: string;
-  //   año: string;
-  //   version: string;
-  // } | null>(null);
+  const [clienteInfo, setClienteInfo] = useState<{
+    nombre: string;
+    modelo: string;
+    año: string;
+    version: string;
+  } | null>(null);
   const [selectedServiceCategory, setSelectedServiceCategory] = useState<
     "ppf" | "tratamiento-ceramico" | "f-stack-black" | null
   >(null);
@@ -48,7 +48,8 @@ const Home = () => {
     año: string;
     version: string;
   }) => {
-    // setClienteInfo(info);
+    setClienteInfo(info);
+    console.log(clienteInfo)
     setStep(2);
   };
 
