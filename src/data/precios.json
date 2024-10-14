@@ -1,0 +1,144 @@
+{
+  "ppf": {
+    "services": [
+      {
+        "nombre": "Borde de Puertas",
+        "descripcion": "",
+        "precio": 8000,
+        "cantidadVariable": true
+      },
+      {
+        "nombre": "Borde de Fondo de Manillas",
+        "descripcion": "",
+        "precio": 8000,
+        "cantidadVariable": true
+      },
+      {
+        "nombre": "Pilares Piano Black de Puertas",
+        "descripcion": "",
+        "precio": 18000,
+        "cantidadVariable": true
+      },
+      {
+        "nombre": "Zona Baja de las Puertas (interior)",
+        "descripcion": "",
+        "precio": 25000,
+        "cantidadVariable": true
+      },
+      {
+        "nombre": "Espejos Retrovisores",
+        "descripcion": "",
+        "precio": 45000,
+        "cantidadVariable": true
+      },
+      {
+        "nombre": "Ópticas",
+        "descripcion": "",
+        "precio": 45000,
+        "cantidadVariable": true
+      },
+      {
+        "nombre": "Kit Interior Full",
+        "descripcion": "",
+        "precio": 189000,
+        "cantidadVariable": false
+      },
+      {
+        "nombre": "Capo",
+        "descripcion": "",
+        "precio": 399000,
+        "cantidadVariable": false
+      },
+      {
+        "nombre": "Parachoques Delantero",
+        "descripcion": "",
+        "precio": 399000,
+        "cantidadVariable": false
+      },
+      {
+        "nombre": "Kit Parcial Plus",
+        "descripcion": "Incluye Capo y Parachoques Delantero.",
+        "precio": 749000,
+        "cantidadVariable": false
+      },
+      {
+        "nombre": "Kit Full Front ",
+        "descripcion": "Incluye Capo, Parachoques Delantero, Tapabarros Delanteros, Ópticas y Espejos Retrovisores.",
+        "precio": 1299000,
+        "cantidadVariable": false
+      }
+    ]
+  },
+  "tratamiento-ceramico": {
+    "services": [
+      {
+        "nombre": "Cerámico Full Pro",
+        "descripcion": "Este paquete de revestimiento cerámico tiene una vida útil estimada de 2 años con el cuidado adecuado. Incluye: |* Corrección de Pintura.* Gtechniq EXO. Duración de Hasta 2 Años.* Sellado Cerámico en Ópticas.* Sellado Cerámico en Plásticos.* Sellado Cerámico en Llantas (Exterior). * Sellado Cerámico en Todos los Cristales.* PPF en Fondos de Manillas.* PPF en Borde de Puertas* Aspirado y Acondicionamiento de Plásticos Interiores.",
+        "precio": 419000,
+        "cantidadVariable": false
+      },
+      {
+        "nombre": "Cerámico Full Premium",
+        "descripcion": "Este paquete de revestimiento cerámico tiene una vida útil estimada de 5 años con el cuidado adecuado. Incluye: |* Corrección de Pintura.* Gtechniq Crystal Serum Light. Duración de Hasta 5 Años.* Sellado Cerámico en Ópticas.* Sellado Cerámico en Plásticos.* Sellado Cerámico en Llantas (Exterior). * Sellado Cerámico en Todos los Cristales.* PPF en Fondos de Manillas.* PPF en Borde de Puerta* Aspirado y Acondicionamiento de Plásticos Interiores. *Incluye Garantía ",
+        "precio": 519000,
+        "cantidadVariable": false
+      },
+      {
+        "nombre": "Cerámico Full Exclusive",
+        "descripcion": "Este paquete de revestimiento cerámico tiene una vida útil estimada de 9 años con el cuidado adecuado. Incluye: |* Corrección de Pintura.* Gtechniq Crystal Serum Ultra. Duración de Hasta 9 Años.* Sellado Cerámico en Ópticas.* Sellado Cerámico en Plásticos.* Sellado Cerámico en Llantas (Exterior). * Sellado Cerámico en Todos los Cristales.* PPF en Fondos de Manillas.* PPF en Borde de Puertas.* Aspirado y Acondicionamiento de Plásticos Interiores. *Incluye Garantía ",
+        "precio": 639000,
+        "cantidadVariable": false
+      }
+    ]
+  },
+  "f-stack-black": {
+    "services": [
+      {
+        "nombre": "Corrección de Pintura.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Gtechniq Crystal Serum Ultra. Duración de Hasta 9 Años.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Sellado Cerámico de Ópticas.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Sellado Cerámico en Plásticos.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Sellado Cerámico en Todos los Cristales.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "PPF en Fondos de Manillas.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "PPF en Borde de Puertas.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "PPF en Pilares Piano Black de Puertas.",
+        "descripcion": "Incluye 4 pilares"
+      },
+      {
+        "nombre": "Detailing Interior.",
+        "descripcion": "Aspirado en suelos y zona del maletero, limpieza tapetes de vinilo o plástico, aspirado de asientos, limpieza de asientos de cuero, limpieza de consola, portavasos y las rejillas de ventilación, limpieza y acondicionamiento de paneles y puertas, limpieza de vidrios por dentro y por fuera,Limpieza profunda y acondicionamiento de asientos de cuero,tablero limpio y protección UV, limpieza del techo interior, aplicación de protección para alfombra y telas."
+      },
+      {
+        "nombre": "Tratamiento Cerámico Interior.",
+        "descripcion": "Vinilos y plásticos, paneles,volante y asientos"
+      }
+    ],
+    "preciosPorTamaño": {
+      "sedan": 979000,
+      "suv": 1029000,
+      "3-corridas": 1089000,
+      "pickup-xl": 1159000
+    }
+  }
+}
