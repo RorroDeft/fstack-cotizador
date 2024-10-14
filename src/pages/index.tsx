@@ -49,7 +49,7 @@ const Home = () => {
     version: string;
   }) => {
     setClienteInfo(info);
-    console.log(clienteInfo)
+    console.log(clienteInfo);
     setStep(2);
   };
 
@@ -60,21 +60,47 @@ const Home = () => {
     setStep(3);
   };
 
+  // const handleSelectFStackBlack = (
+  //   tamaño: "sedan" | "suv" | "3-corridas" | "pickup-xl"
+  // ) => {
+  //   const precioFStackBlack = precios["f-stack-black"].preciosPorTamaño[tamaño];
+  //   const fStackBlackService = {
+  //     nombre: "F-Stack Black",
+  //     descripcion: `Paquete premium para ${tamaño}`,
+  //     precio: precioFStackBlack,
+  //     cantidad: 1,
+  //   };
+
+  //   setSelectedServices((prev) => ({
+  //     ...prev,
+  //     "f-stack-black": [fStackBlackService],
+  //   }));
+
+  //   setStep(2);
+  // };
+
   const handleSelectFStackBlack = (tamaño: string) => {
-    const precioFStackBlack = precios["f-stack-black"].preciosPorTamaño[tamaño];
-    const fStackBlackService = {
-      nombre: "F-Stack Black",
-      descripcion: `Paquete premium para ${tamaño}`,
-      precio: precioFStackBlack,
-      cantidad: 1,
-    };
+    if (["sedan", "suv", "3-corridas", "pickup-xl"].includes(tamaño)) {
+      const precioFStackBlack =
+        precios["f-stack-black"].preciosPorTamaño[
+          tamaño as "sedan" | "suv" | "3-corridas" | "pickup-xl"
+        ];
+      const fStackBlackService = {
+        nombre: "F-Stack Black",
+        descripcion: `Paquete premium para ${tamaño}`,
+        precio: precioFStackBlack,
+        cantidad: 1,
+      };
 
-    setSelectedServices((prev) => ({
-      ...prev,
-      "f-stack-black": [fStackBlackService],
-    }));
+      setSelectedServices((prev) => ({
+        ...prev,
+        "f-stack-black": [fStackBlackService],
+      }));
 
-    setStep(2);
+      setStep(2);
+    } else {
+      console.error("Tamaño inválido:", tamaño);
+    }
   };
 
   const handleAddService = (service: Service, change: number) => {
